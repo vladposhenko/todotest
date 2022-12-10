@@ -42,7 +42,6 @@ export const todoSlice = createSlice({
       setTodo: (state, action) => {
         state.todos.push(action.payload)
         state.inputValue = ''
-        localStorage.setItem('todosk23k4k23', JSON.stringify(state.todos))
       }
   }
 });
